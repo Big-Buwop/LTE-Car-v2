@@ -1,0 +1,23 @@
+{
+    "host": "10.45.0.1",
+    "port_http": "1300",
+    "port_udp": "3000",
+    "video": {
+        "fps": 30,
+        "width": 480,
+        "height": 360,
+        "rate": 1000000,
+        "brightness": 45
+    },
+    "tak": {
+        "host": "10.10.40.101",
+        "port": 8089,
+        "uid": "LTE-CAR-01",
+        "callsign": "ROVER-1",
+        "type": "a-f-G-U-C",
+        "stale_seconds": 30,
+        "interval_ms": 3000,
+        "modem_port": "/dev/ttyUSB2",
+        "modem_baud": 115200
+    }
+}
