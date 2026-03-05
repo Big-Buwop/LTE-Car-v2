@@ -1,0 +1,28 @@
+# Certificates (sensitive)
+certs/*
+!certs/.gitignore
+
+# Config with live IPs/passwords
+onboard/data/config.json
+server/data/config.json
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
